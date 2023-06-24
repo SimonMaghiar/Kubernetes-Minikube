@@ -7,3 +7,45 @@
 5. Create a demo deployment. Type: **kubectl create deployment nginx-depl --image=nginx**
 6. Check that deployment and the pod is ready. Type: **kubectl get deployment | kubectl get pod**
 7. Status should be ready
+
+To create deployment by reading from a configuration file. Type: **kubectl apply -f nginx-deployment.yaml**apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+  labels:
+      app: nginx
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:1.16
+        ports:
+        - containerPort: 80apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+  labels:
+      app: nginx
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:1.16
+        ports:
+        - containerPort: 80
