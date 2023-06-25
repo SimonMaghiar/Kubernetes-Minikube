@@ -3,4 +3,6 @@ kind: ConfigMap
 metadata:
   name: mongodb-configmap
 data:
-  database_url: mongodb-service
+  database_url: mongodb-service #it is MongoDB internal service name which we have specify in Step 3 above.
+
+#ConfigMap must already be in the cluster when referencing it in previous step.
