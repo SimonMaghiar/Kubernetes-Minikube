@@ -9,3 +9,4 @@
 7. Status should be ready
 
 To create deployment by reading from a configuration file. Type: **kubectl apply -f nginx-deployment.yaml**
+https://anuradha.hashnode.dev/kubernetes-with-mongo-express-app
