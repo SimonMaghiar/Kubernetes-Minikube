@@ -24,24 +24,24 @@ https://anuradha.hashnode.dev/kubernetes-with-mongo-express-app
 
 **✏️ Debugging Pods**
 
-kubectl logs [POD_NAME]: shows what the application inside the pod logs.
-
-kubectl describe pod [POD_NAME]: shows additional information about pods and all the state changes that happen inside the pod.
-
-kubectl exec -it [POD_NAME] -- bin/bash : start a shell session for containers running in a K8s cluster. It’s a bit like SSH for Kubernetes.
+    kubectl logs [POD_NAME]: shows what the application inside the pod logs.
+    
+    kubectl describe pod [POD_NAME]: shows additional information about pods and all the state changes that happen inside the pod.
+    
+    kubectl exec -it [POD_NAME] -- bin/bash : start a shell session for containers running in a K8s cluster. It’s a bit like SSH for Kubernetes.
 
 **✏️ CRUD Operations**
 
-kubectl create deployment [DEPLOYMENT_NAME]: to create a deployment
-
-kubectl get deployments: to get a list of all deployments
-
-kubectl edit deployment [DEPLOYMENT_NAME]: to update the deployment
-
-kubectl delete deployment [DEPLOYMENT_NAME]: to delete deployment
+    kubectl create deployment [DEPLOYMENT_NAME]: to create a deployment
+    
+    kubectl get deployments: to get a list of all deployments
+    
+    kubectl edit deployment [DEPLOYMENT_NAME]: to update the deployment
+    
+    kubectl delete deployment [DEPLOYMENT_NAME]: to delete deployment
 
 **✏️ Resource Metrics**
 
-kubectl top pod : Display resource (CPU/memory) usage of pods
-
-kubectl top node : Display resource (CPU/memory) usage of nodes
+    kubectl top pod : Display resource (CPU/memory) usage of pods
+    
+    kubectl top node : Display resource (CPU/memory) usage of nodes
