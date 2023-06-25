@@ -45,3 +45,9 @@ https://anuradha.hashnode.dev/kubernetes-with-mongo-express-app
     kubectl top pod : Display resource (CPU/memory) usage of pods
     
     kubectl top node : Display resource (CPU/memory) usage of nodes
+
+**To run the dashboard type:**
+
+    minikube dashboard
+
+
