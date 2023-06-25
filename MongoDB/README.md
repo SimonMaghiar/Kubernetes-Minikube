@@ -46,39 +46,6 @@ In this article, we'll see how kubernetes work in practice and will create a dem
 ![image](https://github.com/SimonMaghiar/Kubernetes-Minikube/assets/43268629/f763effe-5c62-4bc1-b004-c670c9e781db)
 
 
-**Kubectl Basic Commands**
-
-**✏️ Get Status of K8s Components**
-
-    kubectl get nodes : get the status of nodes
-
-    kubectl version: get the latest version
-
-    kubectl get services: get a list of all services
-
-**✏️ Debugging Pods**
-
-kubectl logs [POD_NAME]: shows what the application inside the pod logs.
-
-kubectl describe pod [POD_NAME]: shows additional information about pods and all the state changes that happen inside the pod.
-
-kubectl exec -it [POD_NAME] -- bin/bash : start a shell session for containers running in a K8s cluster. It’s a bit like SSH for Kubernetes.
-
-**✏️ CRUD Operations**
-
-kubectl create deployment [DEPLOYMENT_NAME]: to create a deployment
-
-kubectl get deployments: to get a list of all deployments
-
-kubectl edit deployment [DEPLOYMENT_NAME]: to update the deployment
-
-kubectl delete deployment [DEPLOYMENT_NAME]: to delete deployment
-
-**✏️ Resource Metrics**
-
-kubectl top pod : Display resource (CPU/memory) usage of pods
-
-kubectl top node : Display resource (CPU/memory) usage of nodes
 
 
 
