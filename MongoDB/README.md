@@ -41,9 +41,9 @@ In this article, we'll see how kubernetes work in practice and will create a dem
 
       6. kubectl apply -f express-service.yaml
 
-      ![image](https://github.com/SimonMaghiar/Kubernetes-Minikube/assets/43268629/1d14e2bc-4959-43d4-ba9c-15ed83859f80)
-      ![image](https://github.com/SimonMaghiar/Kubernetes-Minikube/assets/43268629/284baf3a-9a65-4c54-b536-9e4ce73f8a73)
-      ![image](https://github.com/SimonMaghiar/Kubernetes-Minikube/assets/43268629/f763effe-5c62-4bc1-b004-c670c9e781db)
+![image](https://github.com/SimonMaghiar/Kubernetes-Minikube/assets/43268629/1d14e2bc-4959-43d4-ba9c-15ed83859f80)
+![image](https://github.com/SimonMaghiar/Kubernetes-Minikube/assets/43268629/284baf3a-9a65-4c54-b536-9e4ce73f8a73)
+![image](https://github.com/SimonMaghiar/Kubernetes-Minikube/assets/43268629/f763effe-5c62-4bc1-b004-c670c9e781db)
 
 
 
